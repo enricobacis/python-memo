@@ -22,7 +22,7 @@ Description
   to perform the same computations. The cache is kept in the class namespace.
 
 - ``instancekeymemo(key)``: This decorator factory works like a combination of
-  ``classmemo`` and ``keymemo``, so it allows to specify a function that
+  ``instancememo`` and ``keymemo``, so it allows to specify a function that
   generate the cache key based on the function arguments and can be applied
   to class functions.
 
