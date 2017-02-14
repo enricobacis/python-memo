@@ -1,5 +1,5 @@
-memos
-=====
+python-memo
+===========
 
 *python memoize decorators that cache the results of functions.*
 
@@ -32,7 +32,7 @@ Usage
 
 .. code:: python
 
-    from memos import memo
+    from memo import memo
 
     @memo
     def fibonacci(n):
@@ -42,7 +42,7 @@ Usage
 
 .. code:: python
 
-    from memos import keymemo
+    from memo import keymemo
 
     @keymemo(lambda tup: tup[0])
     def function(tup):
@@ -54,7 +54,7 @@ Installation
 
 The package has been uploaded to `PyPI`_, so you can install it with pip:
 
-    pip install memos
+    pip install python-memo
 
 
-.. _PyPI: https://pypi.python.org/pypi/memos
+.. _PyPI: https://pypi.python.org/pypi/python-memo
